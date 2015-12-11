@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		314235A41C18FF1D005EBCA0 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314235A31C18FF1D005EBCA0 /* PlaySoundsViewController.swift */; };
+		3190190A1C1A558E006C92C5 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319019091C1A558E006C92C5 /* RecordedAudio.swift */; };
 		31E014091C0FAD5000D9B498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E014081C0FAD5000D9B498 /* AppDelegate.swift */; };
-		31E0140B1C0FAD5000D9B498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0140A1C0FAD5000D9B498 /* ViewController.swift */; };
+		31E0140B1C0FAD5000D9B498 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E0140A1C0FAD5000D9B498 /* RecordSoundsViewController.swift */; };
 		31E0140E1C0FAD5000D9B498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E0140C1C0FAD5000D9B498 /* Main.storyboard */; };
 		31E014101C0FAD5000D9B498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E0140F1C0FAD5000D9B498 /* Images.xcassets */; };
 		31E014131C0FAD5000D9B498 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E014111C0FAD5000D9B498 /* LaunchScreen.xib */; };
@@ -26,10 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		314235A31C18FF1D005EBCA0 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		319019091C1A558E006C92C5 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		31E014031C0FAD5000D9B498 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E014071C0FAD5000D9B498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31E014081C0FAD5000D9B498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31E0140A1C0FAD5000D9B498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31E0140A1C0FAD5000D9B498 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		31E0140D1C0FAD5000D9B498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31E0140F1C0FAD5000D9B498 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		31E014121C0FAD5000D9B498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -77,12 +81,14 @@
 		31E014051C0FAD5000D9B498 /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				314235A31C18FF1D005EBCA0 /* PlaySoundsViewController.swift */,
 				31E014081C0FAD5000D9B498 /* AppDelegate.swift */,
-				31E0140A1C0FAD5000D9B498 /* ViewController.swift */,
+				31E0140A1C0FAD5000D9B498 /* RecordSoundsViewController.swift */,
 				31E0140C1C0FAD5000D9B498 /* Main.storyboard */,
 				31E0140F1C0FAD5000D9B498 /* Images.xcassets */,
 				31E014111C0FAD5000D9B498 /* LaunchScreen.xib */,
 				31E014061C0FAD5000D9B498 /* Supporting Files */,
+				319019091C1A558E006C92C5 /* RecordedAudio.swift */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -156,11 +162,14 @@
 		31E013FB1C0FAD5000D9B498 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Shuowei Li";
 				TargetAttributes = {
 					31E014021C0FAD5000D9B498 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X3YY38DG5Y;
 					};
 					31E014171C0FAD5000D9B498 = {
 						CreatedOnToolsVersion = 6.4;
@@ -212,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E0140B1C0FAD5000D9B498 /* ViewController.swift in Sources */,
+				3190190A1C1A558E006C92C5 /* RecordedAudio.swift in Sources */,
+				31E0140B1C0FAD5000D9B498 /* RecordSoundsViewController.swift in Sources */,
+				314235A41C18FF1D005EBCA0 /* PlaySoundsViewController.swift in Sources */,
 				31E014091C0FAD5000D9B498 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +287,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,9 +352,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lishuowei.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +366,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lishuowei.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -370,6 +390,7 @@
 				);
 				INFOPLIST_FILE = "Pitch PerfectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lishuowei.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitch Perfect.app/Pitch Perfect";
 			};
@@ -385,6 +406,7 @@
 				);
 				INFOPLIST_FILE = "Pitch PerfectTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lishuowei.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitch Perfect.app/Pitch Perfect";
 			};
@@ -409,6 +431,7 @@
 				31E014241C0FAD5000D9B498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31E014251C0FAD5000D9B498 /* Build configuration list for PBXNativeTarget "Pitch PerfectTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +440,7 @@
 				31E014271C0FAD5000D9B498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
